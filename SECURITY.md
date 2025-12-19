@@ -10,7 +10,7 @@ This policy applies to:
 - published demo applications and static sites (including GitHub Pages content)
 - public-facing assets and examples contained in this repository
 
-🚫 This policy does **not** grant permission to test against systems you do not own or control, including third‑party environments, customer deployments, or payment networks.
+🚫 This policy does **not** grant permission to test against systems you do not own or control, including third-party environments, customer deployments, or payment networks.
 
 ---
 
@@ -37,7 +37,7 @@ To help us triage quickly, include:
 We aim to:
 - acknowledge your report within **3–5 business days**
 - provide a triage outcome and next steps as soon as practical
-- work with you on responsible disclosure timing
+- coordinate responsible disclosure timing when relevant
 
 ---
 
@@ -54,13 +54,13 @@ We will not pursue legal action for good-faith security research that:
 ## 🔒 Please do not
 - open a public GitHub issue for a vulnerability  
 - publish exploit details before a fix is available  
-- test against customer/third‑party payment systems  
+- test against customer/third-party payment systems  
 - attempt credential stuffing, brute force, or scanning beyond what is necessary  
 
 ---
 
 ## 📌 Notes
-This repository is **documentation‑only** and intentionally excludes runtime source code and sensitive configurations.  
+This repository is **documentation-only** and intentionally excludes runtime source code and sensitive configurations.  
 For controlled-access technical evidence and deeper artefacts, Softnifty maintains private repositories available upon request.
 
 ---

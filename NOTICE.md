@@ -1,6 +1,6 @@
 # 📌 NOTICE (Public Repository)
 
-> **Public documentation repository:** This repository provides a non-sensitive technical overview of Softnifty AI‑Eco CoreBridge. It is intended for transparency, collaboration discussions, and reference documentation.
+> **Public documentation repository:** This repository provides a non-sensitive technical overview of Softnifty AI-Eco CoreBridge. It is intended for transparency, collaboration discussions, and reference documentation.
 
 ---
 
@@ -29,11 +29,12 @@ This repository intentionally excludes:
 You may:
 - read and reference the documentation for evaluation and discussion
 - link to the public pages of this repository
-- use excerpts for **non-commercial** review or commentary with attribution
+- quote short excerpts for **non-commercial** review or commentary with attribution
 
-You may **not**:
+You may **not** (no commercial reuse):
+- use the content for commercial purposes without written permission
 - copy, redistribute, or republish substantial portions of the content
-- use materials to build or ship a competing product
+- use materials to build, ship, or market a competing product
 - represent Softnifty content as your own
 - attempt to infer or reconstruct private implementation details
 

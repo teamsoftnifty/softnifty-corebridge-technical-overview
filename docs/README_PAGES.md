@@ -1,13 +1,15 @@
 # GitHub Pages Setup
 
-This package provides a GitHub Pages-ready portal using **Jekyll** (Cayman theme).
+This package provides a GitHub Pages-ready portal using **Jekyll** (Cayman theme) + Softnifty brand styling.
 
-## Where to place files
-Copy these into the root of your public docs repo:
-- `SECURITY.md`
-- `NOTICE.md`
+## Files included
+- `README.md` (root) with a clear portal entry link
+- `SECURITY.md` (public disclosure)
+- `NOTICE.md` (public-safe, non-commercial reuse)
 - `_config.yml`
-- `/docs/` (folder)
+- `/assets/css/style.scss` (Softnifty colors + buttons + callouts)
+- `/docs/*` (portal pages)
+- Optional: `/.github/*` (docs link-check workflow)
 
 ## Enable GitHub Pages
 Repository → **Settings → Pages**
@@ -15,10 +17,8 @@ Repository → **Settings → Pages**
 - Branch: **main**
 - Folder: **/ (root)**
 
-The portal homepage is:
+Portal homepage:
 - `docs/index.md`
 
-Your Pages URL will be:
+Your Pages URL:
 - `https://<org>.github.io/<repo>/docs/`
-
-> Keep content in `/docs` to keep the repo root tidy.

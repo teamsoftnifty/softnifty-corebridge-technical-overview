@@ -2,43 +2,48 @@
 
 Welcome to the **Softnifty AI‑Eco CoreBridge** public documentation portal.
 
-This portal provides a **non‑sensitive technical overview** of the solution: architecture, process flows, core principles, and public-safe UI/UX artefacts.
+<div class="callout">
+<b>Public docs‑only:</b> This portal contains <b>non‑sensitive</b> architecture, process flows, and technical explanations.
+Runtime source code and sensitive configurations are intentionally excluded.
+</div>
 
 ---
 
 ## 🚀 Start here
 
-### 1) Product overview
-- [What CoreBridge is](product-overview.md)
-- [Key principles (design-time intelligence, deterministic runtime)](architecture.md)
+### 1) Product & architecture
+- [Product overview](product-overview.md)
+- [Architecture notes](architecture.md)
+- [Integration options](integration-options.md)
 
-### 2) Architecture and flows
-- [Architecture](architecture.md)
-- [Process flows overview](../process-flows/README.md)
-
-### 3) Security and governance (high-level)
+### 2) Compliance, security, and governance (high-level)
+- [Compliance scope](compliance-scope.md)
 - [Security model](security-model.md)
-- [Public disclosure policy](../SECURITY.md)
+- [Responsible disclosure](../SECURITY.md)
 - [Public notice](../NOTICE.md)
 
-### 4) ESG/ECO telemetry
+### 3) Telemetry & ESG/ECO reporting
+- [Telemetry overview](telemetry-overview.md)
 - [ESG/ECO metrics model](esg-metrics-model.md)
 
-### 5) Glossary
-- [Acronyms and definitions](glossary.md)
+### 4) Reference
+- [API contracts (abstract)](api-contracts.md)
+- [Glossary](glossary.md)
+- [Release notes](release-notes.md)
 
 ---
 
-## 🔒 Publishing rules
-This portal is **documentation-only**. It excludes runtime engine code and sensitive configurations.
+<a class="softnifty-btn" href="../architecture/">🏗️ View Architecture Artefacts</a>
+&nbsp;
+<a class="softnifty-btn" href="../process-flows/">🔁 View Process Flows</a>
 
-If a document contains any of the following, it must remain private:
-- secrets, credentials, keys, certificates
+---
+
+## 🔒 Publishing rules (keep it public-safe)
+Do not publish anything containing:
+- secrets or credentials (tokens, keys, certificates)
 - real customer/bank identifiers or transaction samples
 - internal endpoints, routing priorities, AML/fraud thresholds
-- implementation details that could increase risk
+- implementation details that increase operational risk
 
----
-
-## 📌 Status
-Maintained as a public reference for technical evaluation and collaboration discussions.
+If in doubt, keep the artefact in the private repository.

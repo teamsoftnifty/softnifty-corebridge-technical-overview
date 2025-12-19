@@ -1,6 +1,6 @@
 # Architecture Notes (Public)
 
-This document explains the architecture diagram in `/architecture/Architectural_Design_v01.pdf`.
+This page explains the conceptual architecture published in the `/architecture` folder.
 
 ## Layers
 1. **Design-Time**
@@ -14,3 +14,6 @@ This document explains the architecture diagram in `/architecture/Architectural_
 
 3. **Telemetry/Audit**
    - logs, audit trails, metrics storage and aggregation
+
+## Design-time intelligence, deterministic runtime
+CoreBridge uses AI primarily at **design time** to propose and validate mappings. Approved mappings are versioned and published. Runtime processing executes **deterministically** using the approved configurations to support auditability and operational safety.
