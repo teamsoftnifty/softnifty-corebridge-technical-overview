@@ -40,10 +40,3 @@ Runtime source code and sensitive configurations are intentionally excluded.
 ---
 
 ## 🔒 Publishing rules (keep it public-safe)
-Do not publish anything containing:
-- secrets or credentials (tokens, keys, certificates)
-- real customer/bank identifiers or transaction samples
-- internal endpoints, routing priorities, AML/fraud thresholds
-- implementation details that increase operational risk
-
-If in doubt, keep the artefact in the private repository.
